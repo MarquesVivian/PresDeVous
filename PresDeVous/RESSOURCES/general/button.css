@@ -1,0 +1,33 @@
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; /* Couleur du texte */
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.buttonLink{
+
+	box-shadow: 0px 9px 14px -4px #000000;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+    margin: 10px;
+}
+#BTN1{
+    background-color: #348AEF; /* Couleur de fond verte */
+
+}
+#BTN2{
+    background-color: #FF4D5A;
+}

@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre verticalement */
+    height: 100vh; /* Assure que le conteneur prend toute la hauteur de la fenêtre */
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+    border: 3px solid black;
+    background-color: #d9d9d9;
+    border-radius: 22px;
+    color: black;
+}
+
